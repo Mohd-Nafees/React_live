@@ -1,0 +1,216 @@
+.contText{
+    font-size: 35px;
+    cursor: pointer;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 10px;
+    color: #010f0f;
+    font-family: 'Caveat', cursive;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Satisfy', cursive;
+    
+}
+
+.topRow{
+    /* background-color: rgb(155, 231, 245); */
+    /* width: 100%; */
+    /* color: #fff; */
+    height: auto;
+    border-radius: 20px;
+    margin-left: 10% ;
+    margin-right: 5% ;
+}
+
+.text-col{
+    margin: 5px;
+    background-color: rgb(242, 247, 248);
+    text-align: left;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 6%;
+    height: auto;
+    padding: 10px;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.image-col{
+    border-radius: 0% 45% 0% 45%;
+    margin: 8% 5% 0% 0%;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: rgb(247, 255, 255);
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.myImage{
+    width: 80%;
+    height: 480px;
+    margin: 10px;
+    /* background-color: rgb(255, 255, 255); */
+    border: none;
+    border-radius: 100%;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    
+}
+
+.hello{
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 4, 5);
+    font-size: 25px;
+    justify-items: center;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.pText{
+    font-size: 18px;
+    margin: 15% 5% 15% 5%;
+    text-align: center;
+    /* font-family: 'Caveat', cursive;  */
+    /* font-family: 'Edu QLD Beginner', cursive; */
+    /* font-family: 'Edu TAS Beginner', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+     font-family: 'Roboto', sans-serif;
+
+}
+.contp{
+    font-size: 18px;
+    text-align: center;
+        /* font-family: 'Pacifico', cursive; */
+     /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Edu QLD Beginner', cursive;
+
+    /* font-family: 'Caveat', cursive;  */
+}
+
+.techLaguage{
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+}
+
+
+.skillsRow {
+    width: 100%;
+    height: auto;
+    background-color: rgb(219, 251, 255);
+    /* padding: 20px; */
+    border-radius: 30px;
+    box-shadow:0 0 20px 0 rgba(2, 27, 29, 0.3);
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.skillsCol{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow:0 0 20px 0 rgba(189, 69, 69, 0.945);
+    border-radius: 30px;
+    padding: 10px;
+    color: #010f0f;
+    /* width: auto; */
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Satisfy', cursive;
+    margin: 10px;
+    height: auto;
+    
+}
+
+.skillsCol a{
+    text-decoration: none;
+    color: rgba(10, 3, 3, 0.986);
+}
+.titleValue{
+    color: rgba(3, 3, 95, 0.637);
+}
+
+.titleText{
+    font-size: 30px;
+}
+
+.skillsCol:hover{
+    text-decoration: underline;
+    transition: transform 0.2s;
+    transform: scale(1.2) rotate(-5deg); 
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+
+@media (max-width: 850px) {
+    .pText{
+        font-size: 15px;
+    }
+
+    .hello{
+        font-size: 25px;
+
+    }
+
+    .techLaguage{
+        font-size: 18px;
+    }
+
+    .image-col{
+        margin: 15% 0% 0% 0%;
+        height: 300px;
+        width: 300px;
+        padding: 3px;
+
+    }
+    
+    .myImage{
+        height: 290px;
+        width: 290px;
+        margin: 2px;
+        padding: 2px;
+    }
+  }
+
+@media (max-width: 600px) {
+    .pText{
+        font-size: 12px;
+    }
+
+    .hello{
+        font-size: 20px;
+
+    }
+
+    .techLaguage{
+        font-size: 15px;
+    }
+
+    .image-col{
+        margin: 15% 0% 2% 0%;
+        height: 250px;
+        width: 250px;
+        padding: 3px;
+
+    }
+    
+    .myImage{
+        height: 240px;
+        width: 240px;
+        margin: 2px;
+        padding: 2px;
+    }
+  }
+
+
+  

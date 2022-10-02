@@ -1,0 +1,80 @@
+.navbar{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    /* border: 1px solid rgb(11, 11, 153); */
+    /* box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    -webkit-box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    -moz-box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97); */
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    /* display: inline-block; */
+
+}
+
+.navbar-collapse li a:hover{
+    /* color:#fff !important; */
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    margin-right: 5px;
+    color: rgb(2, 2, 73);
+    box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    -webkit-box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    -moz-box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+
+    /* -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, -14px -6px 20px -9px rgba(0,0,0,0.26); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, -14px -6px 20px -9px rgba(0,0,0,0.26); */
+
+    /* box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    -webkit-box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    -moz-box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97); */
+
+    /* border: 1px solid red; */
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    
+}
+.logo{
+    width: 50px;
+    height: 30px;
+    margin-right: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .navbar.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .container .navbar-brand:hover{
+    text-transform: uppercase;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    padding-right: 5px;
+    color: rgb(2, 2, 73);
+    box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    -webkit-box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    -moz-box-shadow: -3px 20px 6px -18px rgba(0,0,0,0.97);
+    /* border: 1px solid red; */
+ }
+
+ .logoTitile{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Edu QLD Beginner', cursive; */
+    /* font-family: 'Edu TAS Beginner', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Rubik Moonrocks', cursive; */
+    /* font-family: 'Satisfy', cursive; */
+
+ }

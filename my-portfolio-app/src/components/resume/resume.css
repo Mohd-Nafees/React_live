@@ -1,0 +1,267 @@
+.bg-move-resume {
+  /* background:url('https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/8/8905/red-rocks-park-o.jpg') -25px -50px; */
+  /* position:fixed ; */
+  /* top:auto; */
+  /* opacity: 0.5; */
+  width: 100%;
+  /* height: 100%; */
+  /* background-position: center;
+    background-size: cover; */
+  /* z-index:0;
+      height:auto;
+      background-size: calc(100% + 50px); */
+}
+
+.mainTop {
+  width: 95%;
+  margin: 0 auto;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  /* border-radius: 0% 100% 0% 100%; */
+  background-color: rgba(67, 133, 231, 0.795);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.resumeTopRow {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  /* padding: 20px; */
+  border-radius: 0% 100% 0% 100%;
+  background-color: rgba(134, 42, 177, 0.979);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.resumeTopCol {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: left;
+  /* background-color: brown; */
+}
+
+.nameText {
+  /* padding: 10px; */
+  /* margin: 10px; */
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.resumeMiddleCol {
+  width: 90%;
+  height: 100%;
+  margin-top: 2%;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(250, 252, 252);
+}
+
+.resumeBottomCol {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  justify-content: center;
+  /* background-color: bisque; */
+}
+
+.imgDiv {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgb(239, 253, 228);
+}
+
+.resumeImg {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.educationRow {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  /* padding: 20px; */
+  border-radius: 20px;
+}
+
+.education {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  /* background-color: rgb(247, 230, 230); */
+  height: auto;
+  margin: 0 auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.educationList {
+  padding: 5px;
+  /* background-color: rgb(248, 248, 248); */
+  background-color: #fff;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  /* margin: 0 auto; */
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.educationListText {
+  width: 100%;
+  font-size: 25px;
+  color: rgb(2, 0, 0);
+  text-decoration: underline;
+  margin: 0 auto;
+}
+.degree {
+  font-size: 20px;
+  color: black;
+}
+
+.year {
+  display: inline-block;
+  width: 10%;
+  height: 2px;
+  /* background-color: blue; */
+}
+
+.percentage {
+  color: rgb(207, 70, 70);
+}
+
+.techLan {
+  display: inline-block;
+  background-color: rgba(46, 8, 83, 0.966);
+  margin: 2px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+@media (max-width: 801px) {
+  .nameText{
+    font-size: 20px;
+  }
+  .resumeText{
+    font-size: 15px;
+  }
+
+  .resumeBottomCol{
+    font-size: 15px;
+  }
+
+  .educationListText{
+    font-size: 20px;
+  }
+
+  .degree {
+    font-size: 15px;
+  }
+}
+@media (max-width: 601px) {
+  .nameText{
+    font-size: 15px;
+  }
+  .resumeText{
+    font-size: 12px;
+  }
+
+  .resumeBottomCol{
+    font-size: 12px;
+  }
+
+  .resumeMiddleCol{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgb(247, 255, 255);
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+  }
+
+  .imgDiv {
+    width: 190px;
+    height: 190px;
+    margin: 0 auto;
+    padding: 2px;
+  }
+  
+  .resumeImg {
+    width: 185px;
+    height: 185px;
+    margin: 0 auto;
+    padding: 2px;
+
+  }
+
+  .educationListText{
+    font-size: 15px;
+  }
+
+  .degree {
+    font-size: 12px;
+
+  }
+
+  .collageText{
+    font-size: 12px;
+  }
+  .percentage{
+    font-size: 11px;
+  }
+
+  .projectText{
+    font-size: 11px;
+  }
+
+  .techLan{
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .educationListText{
+    font-size: 14px;
+  }
+
+  .degree {
+    font-size: 11px;
+
+  }
+
+  .projectTitle{
+    font-size: 2.6vw;
+  }
+
+  .collageText{
+    font-size: 10px;
+  }
+  .percentage{
+    font-size: 9px;
+  }
+
+  .projectText{
+    font-size: 9px;
+  }
+
+  .techLan{
+    font-size: 10px;
+  }
+}
+
+

@@ -1,0 +1,390 @@
+.profile-container {
+  margin: 10% 0% 0% 10%;
+}
+
+.profile-top {
+  background-color: rgba(65, 65, 236, 0.527);
+  margin-top: 6%;
+  margin-bottom: 5%;
+  padding: 2%;
+  border-radius: 50% 0% 50% 0%;
+  -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, -37px -34px 11px -7px rgba(0, 0, 0, 0.26);
+  box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+    -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+    12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+    -10px -7px 27px 1px #8e5cff, -37px -34px 11px -7px rgba(0, 0, 0, 0.26);
+}
+
+.profile-image {
+  cursor: pointer;
+  width: 100%;
+  height: 620px;
+  margin: 10% 0 5% 0;
+  padding: 2%;
+  border-radius: 30px 150px 100px 200px;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: -16px 13px 10px -7px rgba(224, 132, 224, 0.79);
+  -moz-box-shadow: -16px 13px 10px -7px rgba(224, 132, 224, 0.79);
+  box-shadow: -16px 13px 10px -7px rgba(224, 132, 224, 0.79);
+}
+
+.inner-profile-box {
+  width: 100%;
+  height: 570px;
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 50px 150px 10px 100px;
+  background-color: rgba(145, 136, 231, 0.089);
+  box-shadow: -3px 20px 6px -18px rgba(0, 0, 0, 0.97);
+  -webkit-box-shadow: -3px 20px 6px -18px rgba(0, 0, 0, 0.97);
+  -moz-box-shadow: -3px 20px 6px -18px rgba(0, 0, 0, 0.97);
+  border: 0px solid red;
+}
+
+.sideimage {
+  /* margin: 0 auto; */
+  width: 100%;
+  /* border-radius: 50%; */
+  height: 540px;
+  /* object-fit: cover; */
+  /* position: absolute; */
+  /* height: auto; */
+  margin-top: 2%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+.sideimage:hover {
+  transition: transform 0.2s;
+  transform: scale(1.2) rotate(-10deg);
+}
+
+/* img {
+    transition: transform .7s ease-in-out;
+  }
+  img:hover {
+    transform: rotate(360deg);
+  } */
+
+.profile-image:hover {
+  transform: rotate(-10deg);
+}
+
+.profile-text {
+  color: #fff;
+  font-stretch: expanded;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Moonrocks", cursive;
+  font-style: italic;
+  text-transform: uppercase;
+  justify-content: left;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
+  text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 9px 2px 9px rgba(77,25,0,0.5), 12px 2px 18px rgba(77,66,0,0.5), 15px 2px 30px rgba(64,77,0,0.5), 17px 2px 45px rgba(38,77,0,0.5), 2px 2px 2px rgba(206,89,55,0);
+  /* text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77, 0, 38, 0.5),
+    3px 0 3px #ff002b, 5px 0 3px #800015, 6px 2px 3px rgba(77, 0, 13, 0.5),
+    6px 0 9px #ff5500, 8px 0 9px #802a00, 9px 2px 9px rgba(77, 25, 0, 0.5),
+    9px 0 18px #ffd500, 11px 0 18px #806a00, 12px 2px 18px rgba(77, 66, 0, 0.5),
+    12px 0 30px #d4ff00, 14px 0 30px #6a8000, 15px 2px 30px rgba(64, 77, 0, 0.5),
+    15px 0 45px #80ff00, 17px 0 45px #408000, 17px 2px 45px rgba(38, 77, 0, 0.5);
+ */
+}
+
+.primary-text {
+  color: #fff;
+  font-family: "Caveat", cursive;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-right: 20px;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.im {
+  color: rgb(244, 245, 217);
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-left: 5px;
+}
+/* 
+  
+  font-family: 'Caveat', cursive;
+  font-family: 'Edu QLD Beginner', cursive;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-family: 'Satisfy', cursive;
+  */
+
+.profile-details {
+  width: 100%;
+}
+
+.profile-role-tagline {
+  margin-right: 20px;
+  color: #fff;
+  justify-content: left;
+  /* text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -4px 27px 15px rgba(206,89,55,0.19); */
+}
+
+.link-icons a {
+  margin-top: 20px;
+  margin: 8px;
+  color: #fff;
+  text-align: center;
+}
+
+.link-icons a :hover {
+  background-color: #fff;
+  color: rgb(71, 71, 238);
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.profile-options a .myResume {
+  color: #fff;
+  background-color: blue;
+  border-radius: 15px;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    -14px -6px 20px -9px rgba(0, 0, 0, 0.26);
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    -14px -6px 20px -9px rgba(0, 0, 0, 0.26);
+}
+
+.right-link-icons a {
+  margin-top: 10px;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.right-link-icons a :hover {
+  background-color: #fff;
+  color: rgb(71, 71, 238);
+  /* font-size: 20px; */
+  border-radius: 10px;
+}
+
+.right-profile-options a .myResume {
+  color: #fff;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.right-profile-options {
+  display: none;
+}
+
+.right-link-icons {
+  display: none;
+}
+
+@media (max-width: 1310px) {
+  .profile-text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .profile-text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 950px) {
+  .profile-text {
+    font-size: 25px;
+    margin-bottom: 25px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .profile-image {
+    cursor: pointer;
+    width: 340px;
+    height: 580px;
+    margin: 10% 0 5% 0;
+    padding: 1%;
+  }
+
+  .inner-profile-box {
+    width: 100%;
+    height: 530px;
+    margin: 0 auto;
+  }
+
+  .sideimage {
+    margin: 5px;
+    width: 320px;
+    height: 500px;
+    margin-top: 4%;
+    padding: 5px;
+    background-color: #fff;
+    border: 2px solid #fff;
+  }
+}
+
+@media (max-width: 830px) {
+  .profile-text {
+    font-size: 20px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .profile-image {
+    width: 290px;
+    height: 290px;
+    margin: 20% 0% 5% 0%;
+    padding: 1%;
+  }
+
+  .im {
+    font-size: 20px;
+  }
+
+  .inner-profile-box {
+    width: 270px;
+    height: 270px;
+    margin: 0 auto;
+    padding: 0px;
+    /* border-radius: 50px 150px 10px 100px; */
+  }
+
+  .profile-text {
+    font-size: 20px;
+    /* height: 100px; */
+    height: 35px;
+    margin-top: 0;
+  }
+
+  .sideimage {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    padding: 5px;
+    /* object-fit: cover; */
+    /* position: absolute; */
+    /* height: auto; */
+    margin-top: 4%;
+  }
+
+  .profile-role-tagline {
+    margin-right: 5px;
+    font-size: 18px;
+  }
+
+  .profile-container {
+    margin: 5% 0% 5% 3%;
+  }
+
+  .profile-top {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 3%;
+    width: 100%;
+  }
+
+  .primary-text {
+    margin-left: 16px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .profile-image {
+    width: 170px;
+    height: 170px;
+    margin: 30% 0 2% 0;
+    padding: 1%;
+  }
+
+  .profile-container {
+    margin: 0%;
+  }
+
+  .inner-profile-box {
+    width: 100%;
+    height: 160px;
+    margin: 0 auto;
+    padding: 0px;
+    /* border-radius: 50px 150px 10px 100px; */
+  }
+
+  .sideimage {
+    /* margin: 0 auto; */
+    width: 100%;
+    /* border-radius: 50%; */
+    height: 150px;
+    /* object-fit: cover; */
+    /* position: absolute; */
+    /* height: auto; */
+    margin-top: 4%;
+  }
+
+  .profile-role-tagline {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 13px;
+    justify-content: left;
+  }
+
+  .profile-text {
+    font-size: 18px;
+    height: 35px;
+    margin-top: 0;
+  }
+
+  .primary-text {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .profile-options {
+    display: none;
+  }
+
+  .link-icons {
+    display: none;
+  }
+
+  .right-profile-options {
+    width: 100%;
+    display: block;
+    margin-left: 20px;
+    /* background-color: blueviolet; */
+  }
+
+  .right-link-icons {
+    text-align: center;
+    margin-left: 30px;
+    padding: 2px;
+    display: block;
+    background-color: blueviolet;
+    border-radius: 20px;
+  }
+
+  .profile-container {
+    margin: 5% 0% 0% 0%;
+  }
+
+  .profile-top {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    padding: 2%;
+    width: 100%;
+  }
+}

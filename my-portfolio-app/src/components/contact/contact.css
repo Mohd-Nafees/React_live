@@ -1,0 +1,77 @@
+.mydivstyle:hover {
+  /* box-shadow:0 0 20px 0 rgba(0,0,0,0.3); */
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    -14px -6px 20px -9px rgba(0, 0, 0, 0.26);
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    -14px -6px 20px -9px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  transform: translateY(-20px);
+  padding-top: 10px;
+  cursor: pointer;
+
+}
+
+.mydivstyle{
+    /* width: 20%; */
+    height: 120px;
+    margin-top: 25px;
+     /* box-shadow:0 0 20px 0 rgba(0,0,0,0.3); */
+     /* margin: 1px; */
+     border-radius: 20px;
+     cursor: pointer;
+     font-family: 'Edu QLD Beginner', cursive;
+     font-family: 'Edu TAS Beginner', cursive;
+     /* font-family: 'Pacifico', cursive; */
+     /* font-family: 'Roboto', sans-serif; */
+     font-size: 20px;
+ 
+}
+
+.sub-btn {
+  background-color: rgb(101, 7, 156);
+  color: #fff;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    -14px -6px 20px -9px rgba(0, 0, 0, 0.26);
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    -14px -6px 20px -9px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  cursor: pointer;
+
+  width: 20%;
+  margin-left: 40%;
+}
+
+.contStyle {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    background-color: rgb(219, 251, 255);
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+  /* color: #fff; */
+}
+
+.contText{
+    font-size: 35px;
+    /* display: inline; */
+    cursor: pointer;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    /* width: 50%; */
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 10px;
+    color: #010f0f;
+    font-family: 'Caveat', cursive;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Satisfy', cursive;
+    
+}

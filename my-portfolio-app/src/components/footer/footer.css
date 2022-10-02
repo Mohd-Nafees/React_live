@@ -1,0 +1,35 @@
+.header ul li{
+    display: flex;
+    display: inline-flex;
+    /* background-color: blueviolet; */
+
+}
+
+.header ul li:hover{
+
+    color: rgb(71, 71, 238);
+        background-color: rgb(71, 148, 36);
+    font-size: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, -14px -6px 20px -9px rgba(0,0,0,0.26); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, -14px -6px 20px -9px rgba(0,0,0,0.26);
+}
+
+.text{
+            font-family: 'Caveat', cursive;
+    font-family: 'Edu QLD Beginner', cursive;
+    /* font-family: 'Edu TAS Beginner', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 20px; */
+}
+
+.copy{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 20px;
+
+}
